@@ -51,9 +51,9 @@ const ProjectModalThree = ({ open, onClose, img}) => {
                   </div> */}
                 </div>
                 <p className='desc'>
-                  This is a modern online ecommerce platform for easy and fast purchasing of products without too much complicated user interfaces.
+                  This is a modern personal portfolio i built for my self, in order to let known my skills.
                 </p>
-                <div className='main-body'>
+                {/* <div className='main-body'>
                   <h2 className='title'>What Problem Does It Solve ?</h2>
                   <p className='reason'>
                     &nbsp; &nbsp; &nbsp; &nbsp; This platform is intented to reduce the complicated user interface most user have to encounter before making a purchase. making it easier and faster for anyone who wants to purchase online whether a kid or an adult. Because of it great visually appealing and
@@ -71,7 +71,7 @@ const ProjectModalThree = ({ open, onClose, img}) => {
                       The perfomance Optimization was negatively impacting the speed and user experience of the website, so I implemented lazy loading, code splitting, and optimizing images.
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
     </>,
