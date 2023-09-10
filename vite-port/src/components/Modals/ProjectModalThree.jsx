@@ -24,7 +24,7 @@ const ProjectModalThree = ({ open, onClose, img}) => {
       <div onClick={onClose} className={`${open ? 'overlay-modal' : ''} over-menu`}></div>
             <div className='modal'>
               <div title='Scroll down to see more' className='banner'>
-                <img className='banner-img' src={img} alt="" />
+                <img className='banner-img' src={img} alt="banner image" />
                 <div className='more'>
                   <a title='View Website live' href='https://dev-israel.netlify.app' target='blank' className='more-icon'>
                     <FaEye className='icon' />  
