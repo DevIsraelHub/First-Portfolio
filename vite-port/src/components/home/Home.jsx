@@ -69,7 +69,7 @@ const Home = () => {
           </div>
 
           <div className="home__btns">
-            <a title='Download my resume' href='#project' className="btn text-cs">
+            <a title='Download my resume' href='#projects'className="btn text-cs">
               Projects
             </a>
             <a title='Go to contact me' href="#contact" target='blank' className="hero__link text-cs">

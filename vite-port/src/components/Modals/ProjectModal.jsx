@@ -30,7 +30,9 @@ const ProjectModal = ({ open, onClose, img}) => {
                     <FaEye className='icon' />  
                     <span>View Live</span>
                   </a>
-                  <a title='View source code with github' href='https://github.com/DevIsraelHub/Fastify' className='more-icon'>
+                  <a title='View source code with github' 
+                  target='blank'
+                   href='https://github.com/DevIsraelHub/Fastify' className='more-icon'>
                     <FaGithub className='icon' />
                     <span>Source Code</span>
                   </a>

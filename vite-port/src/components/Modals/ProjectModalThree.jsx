@@ -30,7 +30,7 @@ const ProjectModalThree = ({ open, onClose, img}) => {
                     <FaEye className='icon' />  
                     <span>View Live</span>
                   </a>
-                  <a title='View source code with github' className='more-icon'>
+                  <a title='View source code with github' href='https://github.com/DevIsraelHub/Portfolio/tree/main/vite-port' target='blank' className='more-icon'>
                     <FaGithub className='icon' />
                     <span>Source Code</span>
                   </a>
