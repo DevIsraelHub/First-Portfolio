@@ -41,7 +41,7 @@ const ProjectModalFour = ({ open, onClose, img }) => {
               </div>
               <div className='body'>
                 <div className='heading'>
-                  <h2>Glowing (seCommerce skin care landing page website)</h2>
+                  <h2>Glowing (skin care e-commerce landing page website)</h2>
                   {/* <div className="tools">
                   <span>What I used :</span>
                     <img title='React' className='tool-img' src={ReactLogo} alt="" />
