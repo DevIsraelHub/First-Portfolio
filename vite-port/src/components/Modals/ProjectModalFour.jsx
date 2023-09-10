@@ -3,18 +3,18 @@ import ReactDOM from 'react-dom'
 import { FaCode, FaEye, FaGithub, FaStop, FaTimes } from 'react-icons/fa'
 import './modal.css'
 
-import ReactLogo from '../../assets/react-logo.svg.svg'
-import JavascriptLogo from '../../assets/javascript-logo.svg.svg'
-import SassLogo from '../../assets/sass-logo.svg.svg'
-import TailwindLogo from '../../assets/tailwind-logo.svg.svg'
-import CssLogo from '../../assets/css-logo.svg.svg'
-import HtmlLogo from '../../assets/html-logo.svg.svg'
-import FigmaLogo from '../../assets/figma-logo.svg.svg'
-import GitLogo from '../../assets/git-logo.svg.svg'
-import GithubLogo from '../../assets/github-logo.svg.svg'
+// import ReactLogo from '../../assets/react-logo.svg.svg'
+// import JavascriptLogo from '../../assets/javascript-logo.svg.svg'
+// import SassLogo from '../../assets/sass-logo.svg.svg'
+// import TailwindLogo from '../../assets/tailwind-logo.svg.svg'
+// import CssLogo from '../../assets/css-logo.svg.svg'
+// import HtmlLogo from '../../assets/html-logo.svg.svg'
+// import FigmaLogo from '../../assets/figma-logo.svg.svg'
+// import GitLogo from '../../assets/git-logo.svg.svg'
+// import GithubLogo from '../../assets/github-logo.svg.svg'
 
 
-const ProjectModaltwo = ({ open, onClose, img }) => {
+const ProjectModalFour = ({ open, onClose, img }) => {
   useEffect(() => {
     document.body.classList.toggle('no-scroll', open)
   }, [open])
@@ -26,11 +26,11 @@ const ProjectModaltwo = ({ open, onClose, img }) => {
               <div title='Scroll down to see more' className='banner'>
                 <img className='banner-img' src={img} alt="" />
                 <div className='more'>
-                  <a title='View Website live' target='blank' href='https://traveliy.netlify.app' className='more-icon'>
+                  <a title='View Website live' href='https://glowiing.netlify.app' target='blank' className='more-icon'>
                     <FaEye className='icon' />  
                     <span>View Live</span>
                   </a>
-                  <a title='View source code with github' target='blank' href='https://github.com/DevIsraelHub/travel' className='more-icon'>
+                  <a title='View source code with github' target='blank' href='https://github.com/DevIsraelHub/glowing/tree/main/glowing' className='more-icon'>
                     <FaGithub className='icon' />
                     <span>Source Code</span>
                   </a>
@@ -41,7 +41,7 @@ const ProjectModaltwo = ({ open, onClose, img }) => {
               </div>
               <div className='body'>
                 <div className='heading'>
-                  <h2>Travelia (Travel landing page website)</h2>
+                  <h2>Glowing (seCommerce skin care landing page website)</h2>
                   {/* <div className="tools">
                   <span>What I used :</span>
                     <img title='React' className='tool-img' src={ReactLogo} alt="" />
@@ -52,7 +52,7 @@ const ProjectModaltwo = ({ open, onClose, img }) => {
                   </div> */}
                 </div>
                 <p className='desc'>
-                  This is a modern traveling website landing page with the best ui design for the satisfaction of the users.
+                  This is a modern skin care e-commerce website landing page with the best ui design for the satisfaction of the users.
                 </p>
                 {/* <div className='main-body'>
                   <h2 className='title'>What Problem Does It Solve ?</h2>
@@ -80,4 +80,4 @@ const ProjectModaltwo = ({ open, onClose, img }) => {
   )
 }
 
-export default ProjectModaltwo
+export default ProjectModalFour
