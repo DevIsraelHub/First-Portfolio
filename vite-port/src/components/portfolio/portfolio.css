@@ -1,0 +1,38 @@
+
+/* .portfolio {
+  background-image: var(--first-gradient);
+} */
+
+.portfolio__items {
+  padding: 2%;
+}
+
+.link {
+  margin: .8rem;
+}
+
+.portfolio__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  max-width: 1300px;
+  gap: 40px;
+}
+
+.portfolio__img-wrapper {
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.portfolio__img {
+  cursor: pointer;
+  height: 240px;
+  width: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+  transition: all 0.6s var(--transition);
+}
+
+.portfolio__items:hover .portfolio__img {
+  transform: scale(1.07);
+}

@@ -1,0 +1,38 @@
+.skills {
+  background-image: var(--first-gradient);
+}
+
+.skills__container {
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 50px;
+    width: 90%;
+}
+
+.skills__titles,
+.skills__description {
+    padding-inline: 30px;
+}
+
+.skills__titles {
+    display: flex;
+    /* justify-content: ; */
+    align-items: center;
+    gap: 10%;
+    margin-bottom: 10px;
+}
+
+.skill__img {
+  width: 70px;
+  height: 70px;
+}
+
+.skill__img:last-child {
+  background-color: aliceblue;
+}
+
+.skills__name {
+    font-size: var(--largest-font-size);
+}
+/* .skills__description {
+    margin-bottom: 30px;
+} */
