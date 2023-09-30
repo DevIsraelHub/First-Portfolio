@@ -96,7 +96,7 @@ const Header = () => {
             </div>
             <div className="nav__btns">
                <div title='Toggle Theme' className="theme__toggler" onClick={toggleTheme}>
-                  {theme == 'light-theme' ? <BsMoon /> : <BsSun />}
+                  {theme ? <BsMoon /> : <BsSun />}
                </div>
                <div title='menu bar' className={
                   `${showMenu ? 'nav__toggle animate-toggle' : 'nav__toggle'}`
