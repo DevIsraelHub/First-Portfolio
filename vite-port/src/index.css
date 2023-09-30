@@ -1,14 +1,13 @@
 @media screen and (min-width: 1400px) {
   .home__img-wrapper {
-    max-width: 500px;
-    transform: translateY(8%);
+    max-width: 600px;
+    transform: translateY(1%);
   }
 
   .home__profile {
     bottom: -40px;
     right: 10px;
-    transform: scale(.9);
-    height: 850px;
+    height: 700px;
     border-radius: 500px;
     object-fit: cover;
   }

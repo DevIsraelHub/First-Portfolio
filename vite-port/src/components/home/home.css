@@ -116,9 +116,9 @@
 
 .home__profile {
   position: absolute;
-  bottom: -50px;
+  /* bottom: px; */
   right: 0px;
-  transform: scale(.9);
+  /* transform: scale(1); */
   height: 700px;
   border-radius: 500px;
   object-fit: cover;

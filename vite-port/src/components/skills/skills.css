@@ -24,6 +24,7 @@
 .skill__img {
   width: 70px;
   height: 70px;
+  object-fit: contain;
 }
 
 .skill__img:last-child {
